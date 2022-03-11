@@ -18,7 +18,7 @@ sorted_dict=dict(sorted(sort_val.items(),key=operator.itemgetter(1),reverse=True
 c=0
 for i,j in sorted_dict.items():
     if c<5:
-        print(i,":",j)
+        print(i + ":",j)
     else:
         break
     c+=1
